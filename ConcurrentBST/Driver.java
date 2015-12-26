@@ -10,7 +10,7 @@ public class Driver
 {
 	
 	 int No_of_threads;
-	 int No_of_iterations ;
+	 int No_of_iterations;
 	 int keyspace;
 	 int total_operations;
 	 int search;
