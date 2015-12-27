@@ -5,7 +5,7 @@ public class commonResource {
 			commonCounter += 1;
 		}
 		public void decreemnt(){
-			commonCounter -=1;
+			commonCounter -=1; 
 		}
 		public int get() {
 			return commonCounter;
