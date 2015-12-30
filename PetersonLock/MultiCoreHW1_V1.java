@@ -40,7 +40,7 @@ public class MultiCoreHW1_V1 {
 						tid = i % 2;
 						myThreads[i] = new Thread(new PetersonLock(tid,obj,i,lambda,No_of_iterations));
 					}
-					for (int i = 0; i < No_of_threads; i++) {
+					for (int i = 0; i < No_of_threads; i++) {  
 						myThreads[i].start();
 						myThreads[i].join();
 					}
