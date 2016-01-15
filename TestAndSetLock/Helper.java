@@ -7,7 +7,7 @@ public class Helper implements Runnable{
    
 	TASLock tasLock;
 	double lambda;
-	
+	 
     public Helper(TASLock algo,double lambda){
 		
     	this.tasLock = algo;
