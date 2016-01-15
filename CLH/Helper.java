@@ -6,7 +6,7 @@ public class Helper implements Runnable{
    
 	CLHLock clhLock;
 	double lambda;
-	
+	 
     public Helper(CLHLock algo,double lambda){
 		
     	this.clhLock = algo;
