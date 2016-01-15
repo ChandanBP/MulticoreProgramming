@@ -10,7 +10,7 @@ public class RoutingNode {
 	LeafNode leftLeaf;
 	LeafNode rightLeaf;
 
-	public RoutingNode(int k){
+	public RoutingNode(int k){ 
 		
 		this.key = k;
 		left = null;
