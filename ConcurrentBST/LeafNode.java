@@ -7,7 +7,7 @@ public class LeafNode {
 	
 	public LeafNode(int k){
 		key = k;
-		isMarked = false;
+		isMarked = false; 
 	}
 
 }
