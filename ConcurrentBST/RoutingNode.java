@@ -8,7 +8,7 @@ public class RoutingNode {
 	RoutingNode left;
 	RoutingNode right;
 	LeafNode leftLeaf;
-	LeafNode rightLeaf;
+	LeafNode rightLeaf; 
 
 	public RoutingNode(int k){ 
 		
