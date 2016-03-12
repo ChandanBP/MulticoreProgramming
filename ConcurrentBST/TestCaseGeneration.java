@@ -10,7 +10,7 @@ class TestCaseGeneration {
 	
 	public static int KEY_SPACE;
 	public static int INSERTS;
-	public static int SEARCHS;
+	public static int SEARCHS; 
 	public static int DELETES;
 	
 	
