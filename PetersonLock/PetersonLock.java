@@ -12,7 +12,7 @@ public class PetersonLock implements Runnable{
     public PetersonLock(int n,Algo algo,int index,double lambda,int No_of_iterations){ 
 		
     	id = n;
-    	PetersonLock.algoObj = algo;
+    	PetersonLock.algoObj = algo; 
     	this.index = index;
     	PetersonLock.lambda = lambda ;
     	PetersonLock.No_of_iterations = No_of_iterations;
